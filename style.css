@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* scrollbar style start */
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -18,7 +18,9 @@
     
     background: #555; 
   }
-/* header section start  */
+  /* scrollbar style end */
+
+ /* header section start  */
 .header-section{
     height: 600px;
     padding: 80px 120px;
