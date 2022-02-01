@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section start  */
+.header-section{
+    height: 600px;
+    padding: 80px 120px;
+    background-color: rgb(161, 157, 157);
+}
+.header-section .left{
+    width: 50%;
+    float: left;
+}
+.header-section .left h1{
+    font-size: 100px;
+}
+.header-section  span{
+    color: red;
+ 
+}
+.header-section p1{
+ line-height: 50px;   
+ font-size: 100px;
+}
+.header-section p{
+    line-height: 60px;
+    font-size: 30px;
+    text-align: justify;
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: brown;
+    border: none;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+.right img{
+    border-radius: 50%;
+    width: 90%;
+}
+/* header section end */
+/* breakfast section start */
+.breakfast-section{
+    height:  660px ;
+    padding:  60px 120px;
+    background-color: #eee;
+}
+.card-section{
+    width: 30%;
+    float: left;
+}
+.card-holder{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 50px 0 0 50px;
+    line-height: 30px;   
+    position: absolute; 
+}
+.card-holder h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: red;
+    
+}
+.card-holder p{
+    font-size: 20px;
+    text-align: justify;
+   
+}
+ .breakfast-btn{
+     width: 120px;
+     height: 30px;
+     background-color: brown;
+     border-radius: 50px;
+     margin:  10px 30px;
+     color: whitesmoke;
+  
+
+    }
+.picture-section{
+    width: 70%;
+    float: right;
+}
+.picture-section img{
+    height: 500px;
+    width: 100%;
+}
+/* Breakfast section end */
+
+/* fastfood section start */
+.fastfood-section{
+    height: 660px;
+    padding: 80px 120px;
+    background-color: #eee;
+    background-image: url(image/fastfood.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.food-contain p{
+    font-size: 40px;
+    color: #eee;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.food-contain h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.food-contain button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(190, 37, 37);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+}
+/* fastfood section end*/
+/* Delivery section start */
+.delivery-section{
+    height: 660px;
+    width: 100%;
+    padding: 80px 120px;
+    background-color: rgb(199, 187, 187);
+}
+.delivery-picture{
+    width: 70%;
+    float: left;
+}
+.delivery-picture img{
+    width: 70%;
+    border-radius: 50%;
+}
+.delivery-card-container{
+    width: 30%;
+    float: right;
+}
+.delivery-card{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+    margin-top: 10%;
+}
+.delivery-card h1{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(230, 58, 36);
+  
+}
+.delivery-card p{
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align:justify;
+}
+.delivery-card button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+   margin-left: 30%;
+   background-color: tomato;
+   border-radius: 35px;
+}
+/* Delivery section end */
+/* Footer section start */
+.footer-section{
+    height: 660px;
+    width: 100%;
+    background-color: rgb(21, 247, 0);
+}
+
+
+
+/* Footer section end */
