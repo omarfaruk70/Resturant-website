@@ -5,13 +5,13 @@
 }
 /* scrollbar style start */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 20px;
   }
     ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #fcfcfc; 
   }
     ::-webkit-scrollbar-thumb {
-    background: green; 
+    background: rgb(102, 173, 102); 
       border-radius:10px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -198,14 +198,69 @@
    border-radius: 35px;
 }
 /* Delivery section end */
+
 /* Footer section start */
 .footer-section{
     height: 660px;
-    width: 100%;
-    background-color: rgb(21, 247, 0);
     clear: both;
+    background-color: #000;
+    color: #fff;
+    padding: 80px 100px;
+}
+.footer-picture {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.footer-picture img{
+   width: 100%;
+   height: 400px;
+   margin-top: 50px;
+}
+.footer-content{
+    width: 60%;
+    float: right;
+    padding: 100px;
+    text-align: center;
+
+}
+.footer-content h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.footer-content p{
+    font-size: 20px;
+}
+.footer-content form input{
+    
+    padding: 10px;
+    margin-top: 10px ;
+    border: 5px solid black ;
+    background-color:rgb(255, 253, 253);
+    color: white;
+}
+.footer-btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border: 5px solid black;
+    color: white;
+    border-radius: 50px;
 }
 
-
-
+.footer-address h3{
+    line-height: 80px;
+    
+}
 /* Footer section end */
+.copyright{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 238);
+
+}
+.copyright p{
+    font-size: 30px;
+    text-align: center;
+   margin-top: 10px;
+}
