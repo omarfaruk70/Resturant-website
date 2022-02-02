@@ -22,13 +22,16 @@
 
  /* header section start  */
 .header-section{
-    height: 600px;
+    min-height: 100vh;
     padding: 80px 120px;
     background-color: rgb(161, 157, 157);
+    clear: both;
+    padding-top: 10%;
 }
 .header-section .left{
     width: 50%;
     float: left;
+    padding-top: 5%;
 }
 .header-section .left h1{
     font-size: 100px;
@@ -59,10 +62,12 @@
 .right{
     width: 50%;
     float: right;
+    
 }
 .right img{
     border-radius: 50%;
     width: 90%;
+    margin-left: 10%;
 }
 /* header section end */
 /* breakfast section start */
@@ -198,6 +203,7 @@
     height: 660px;
     width: 100%;
     background-color: rgb(21, 247, 0);
+    clear: both;
 }
 
 
