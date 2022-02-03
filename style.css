@@ -202,10 +202,15 @@
 /* Footer section start */
 .footer-section{
     height: 660px;
+    width: 100vw;
+    position: relative;
+    padding-left: 20%;
     clear: both;
     background-color: #000;
     color: #fff;
-    padding: 80px 100px;
+    left: -10%;
+    right: -10%;
+    /* padding: 80px 100px; */
 }
 .footer-picture {
     width: 40%;
@@ -222,7 +227,6 @@
     float: right;
     padding: 100px;
     text-align: center;
-
 }
 .footer-content h1{
     font-size: 60px;
@@ -237,7 +241,7 @@
     margin-top: 10px ;
     border: 5px solid black ;
     background-color:rgb(255, 253, 253);
-    color: white;
+    color: black;
 }
 .footer-btn{
     width: 150px;
